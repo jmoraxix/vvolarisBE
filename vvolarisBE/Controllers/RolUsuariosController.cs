@@ -13,16 +13,13 @@ using vvolarisBE;
 
 namespace vvolarisBE.Controllers
 {
-    [System.Web.Http.Cors.EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class RolUsuariosController : ApiController
     {
         private vvolarisbdEntities db = new vvolarisbdEntities();
 
         // GET: api/Rolusuarios
-
         public IQueryable<Usuario> GetUsuarios()
         {
-
             return db.Usuarios;
         }
 

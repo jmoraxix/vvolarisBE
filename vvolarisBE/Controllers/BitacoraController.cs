@@ -12,7 +12,6 @@ using vvolarisBE;
 
 namespace vvolarisBE.Controllers
 {
-    [System.Web.Http.Cors.EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class BitacoraController : ApiController
     {
         private vvolarisbdEntities db = new vvolarisbdEntities();

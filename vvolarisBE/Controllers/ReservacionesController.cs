@@ -12,7 +12,6 @@ using vvolarisBE;
 
 namespace vvolarisBE.Controllers
 {
-    [System.Web.Http.Cors.EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class ReservacionesController : ApiController
     {
         private vvolarisbdEntities db = new vvolarisbdEntities();
